@@ -1,30 +1,40 @@
-#main-navbar {
+body {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+footer{
+  background-color:#DFE7ED;
+}
+#profile span{
+  border-radius:15px ;
+  background: white;
+  padding: 2px;
+}
+.main-navbar {
   text-align: right;
   font: 2em;
   background: #C3D0D9;
   margin-left: 20%;
 }
 
-#main-navbar ul {
+.main-navbar ul {
   margin: 0;
   padding: 0;
 }
 
-#main-navbar li {
+.main-navbar li {
   display: inline-block;
   padding: 20px 20px;
 }
 
-#main-navbar li a {
+.main-navbar li a {
   text-decoration: none;
   color: #222;
 }
 
-#main-navbar li a:hover {
-  padding-bottom: 3px;
-  color: grey;
-}
-#text_footer{
+
+.text_footer{
   color: grey;
   font-size: 10px;
 }
@@ -35,6 +45,11 @@
   margin-top:-75px;
   padding: 5px;
 }
+#logo{
+  width: 50px;
+  height: 50px
+}
+/*header start*/
 .fa-comments{
   color: #339cff;
 }
@@ -47,57 +62,52 @@
 .fa-user-circle{
   color: white;
 }
+/*header end*/
+/*icon color start*/
+.icons i{
+  color: #4A5D6B
+}
+.team_icon{
+  color: #4A5D6B
+}
+.social_icons i{
+color: #4A5D6B;
+}
+/*icon color end*/
+/*hover start*/
+#logo:hover{
+  transform: scale(1.1);
+}
+#chat:hover{
+  transform: scale(1.1);
+}
+#points:hover{
+  transform: scale(1.1);
+}
+#streak:hover{
+  transform: scale(1.1);
+}
+#daily_goal:hover{
+  transform: scale(1.1);
+}
+.fa-user-circle:hover{
+  transform: scale(1.1);
+}
+.icons i:hover{
+  transform: scale(1.2);
+}
+.social_icons i:hover{
+  transform: scale(1.1);
+}
+.team_icon:hover{
+  transform: scale(1.2);
+}
+/*hover end*/
+/*footer start*/
 
-.fa-home{
-  color: #4A5D6B
-}
-.fa-tasks{
-  color: #4A5D6B
-}
-.fa-sticky-note{
-  color: #4A5D6B
-}
-.fa-star{
-  color: #4A5D6B
-}
-.fa-envelope{
-  color: #4A5D6B
-}
-.fa-trophy{
-  color: #4A5D6B
-}
-.fa-male{
-  color: #4A5D6B
-}
-
-.fa-home:hover{
-  color: pink;
-}
-.fa-github{
-  color: #4A5D6B;
-}
-.fa-instagram{
-  color: #4A5D6B;
-}
-.fa-whatsapp{
-  color: #4A5D6B;
-}
-.fa-twitter{
-  color: #4A5D6B;
-}
-.fa-linkedin{
-  color: #4A5D6B;
-}
 .social_icons{
   align-items: center;
   padding: 10px 10px 0px 10px;
-  /* margin: 10px; */
 }
-body {
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
-}
-footer{
-  background-color:#DFE7ED;
-}
+
+/*footer end*/
