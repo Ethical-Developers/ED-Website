@@ -22,13 +22,6 @@
   overflow-x: hidden;
   overflow-y: scroll;
 }
-.chatlogs: :-webkit-scrollbar{
-    width: 10px;
-}
-.chatlogs: :-webkit-scrollbar-thumb{
-    border radius: 5px;
-    background: rgba(0, 0, 0, 1);
-  }
 
 
 
@@ -73,20 +66,27 @@
 
 .msg-bottom
 {
-  position:relative;
-  height: 100%;
-  background-color: #fff;
-}
-.msg-bottom: :-webkit-scrollbar{
-      width: 10px;
-  }
-.msg-bottom: :-webkit-scrollbar-thumb{
-      border radius: 5px;
-      background: rgba(0, 0, 0, 1);
-    }
 
+margin-left:-54px;
+ }
+footer li {
+  display: inline-block;
+
+
+
+}
 #text-box
 {
-  width: 80%;
-  height: 50px;
+  width: 360px;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+#hello
+{
+  position: fixed;
+  bottom: 10px;
+
+
 }
