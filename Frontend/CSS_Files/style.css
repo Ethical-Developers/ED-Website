@@ -15,6 +15,7 @@ footer{
   text-align: right;
   font: 2em;
   background: #C3D0D9;
+  height: 80px;
 }
 
 .main-navbar ul {
@@ -51,8 +52,11 @@ footer{
 /*header start*/
 #batch{
   background-color: white;
-  padding-right: 100px;
-  margin-right: 56.3%;
+  padding-right: 80px;
+  margin-right: 40.5%;
+}
+#search_bar{
+  margin-right: 40px;
 }
 .fa-comments{
   color: #339cff;
