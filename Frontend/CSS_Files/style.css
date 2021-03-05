@@ -84,7 +84,8 @@ color: #4A5D6B;
 /*icon color end*/
 /*hover start*/
 #logo:hover{
-  transform: scale(1.1);
+  animation: animate__bounce;
+  animation-duration: 0ms;
 }
 #chat:hover{
   transform: scale(1.1);
