@@ -61,12 +61,15 @@ footer{
 }
 .fa-comments{
   color: #339cff;
+  font-weight: bold;
 }
 .fa-euro-sign{
   color: #ffff00;
+  font-weight: bold;
 }
 .fa-fire{
   color: orange;
+  font-weight: bold;
 }
 .fa-user-circle{
   color: white;
@@ -86,9 +89,11 @@ color: #4A5D6B;
 /*hover start*/
 #logo:hover{
   transform: scale(1.1);
+
 }
 #chat:hover{
   transform: scale(1.1);
+  font-weight: bold;
 }
 #points:hover{
   transform: scale(1.1);
