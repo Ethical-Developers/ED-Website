@@ -54,18 +54,22 @@ footer{
   background-color: white;
   padding-right: 80px;
   margin-right: 41.5%;
+  font-weight: bold;
 }
 #search_bar{
   margin-right: 40px;
 }
 .fa-comments{
   color: #339cff;
+  font-weight: bold;
 }
 .fa-euro-sign{
   color: #ffff00;
+  font-weight: bold;
 }
 .fa-fire{
   color: orange;
+  font-weight: bold;
 }
 .fa-user-circle{
   color: white;
@@ -84,11 +88,13 @@ color: #4A5D6B;
 /*icon color end*/
 /*hover start*/
 #logo:hover{
-  animation: animate__bounce;
-  animation-duration: 0ms;
+
+  transform: scale(1.1);
+
 }
 #chat:hover{
   transform: scale(1.1);
+  font-weight: bold;
 }
 #points:hover{
   transform: scale(1.1);
